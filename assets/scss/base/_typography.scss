@@ -1,0 +1,19 @@
+/* Typography Document */
+
+@font-face {
+	font-family: "Segoe", sans-serif;
+	src: url("../../fonts/Segoe UI.ttf") format("truetype"),
+		 url("../../fonts/Segoe UI Bold.ttf") format("truetype"),
+		 url("../../fonts/Segoe UI Italic.ttf") format("truetype"),
+		 url("../../fonts/Segoe UI Bold Italic.ttf") format("truetype");
+}
+
+@font-face {	
+	font-family: "Verdana", sans-serif;
+	src: url("../../fonts/Verdana.ttf") format("truetype");
+}
+
+@font-face {	
+	font-family: "MuseoSans-500", sans-serif;
+	src: url("../../fonts/MuseoSans-500.ttf") format("truetype");
+}

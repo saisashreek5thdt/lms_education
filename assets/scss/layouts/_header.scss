@@ -1,0 +1,37 @@
+.header-primary {
+	height: 4.5rem;
+	background-color: $color-primary !important;
+	box-shadow: 0 0 5px 0 #000;
+	position: relative !important;
+	
+	&__info {
+		position: absolute;
+		& h3{
+			display: inline-block;
+			float: left;
+			color: $text-white !important;
+			text-decoration: none;
+			font-size: 1.75rem;
+			margin-top: 1.15rem;
+			padding: 0 1.45rem;
+			font-family: "Verdana";
+			font-style: normal !important;
+			font-weight: 400;
+			&:not(:last-child) {
+				margin-bottom: 1.25rem;
+			}
+			& a:hover,
+			& a:link,
+			& a:active{
+				text-decoration: none;
+				color: $text-white;
+			}
+		}
+	}
+	
+	&__social {
+		position: absolute;
+		
+	}
+	
+}

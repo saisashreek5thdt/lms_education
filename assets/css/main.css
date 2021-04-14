@@ -1,0 +1,88 @@
+/* CSS Document */
+/* Variables Document */
+/* CSS Document */
+/* Base Document */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+/* Typography Document */
+@font-face {
+  font-family: "Segoe", sans-serif;
+  src: url("../../fonts/Segoe UI.ttf") format("truetype"), url("../../fonts/Segoe UI Bold.ttf") format("truetype"), url("../../fonts/Segoe UI Italic.ttf") format("truetype"), url("../../fonts/Segoe UI Bold Italic.ttf") format("truetype"); }
+@font-face {
+  font-family: "Verdana", sans-serif;
+  src: url("../../fonts/Verdana.ttf") format("truetype"); }
+@font-face {
+  font-family: "MuseoSans-500", sans-serif;
+  src: url("../../fonts/MuseoSans-500.ttf") format("truetype"); }
+/* CSS Document */
+/* CSS Document */
+/* CSS Document */
+/* CSS Document */
+/* CSS Document */
+/* GRID Document */
+.row {
+  max-width: 114rem;
+  margin: 0 auto; }
+  .row:not(:last-child) {
+    margin-bottom: 8rem; }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row [class^="col-"] {
+    float: left; }
+    .row [class^="col-"]:not(:last-child) {
+      margin-right: 6rem; }
+  .row .col-1-of-1 {
+    width: 100%; }
+  .row .col-1-of-2 {
+    width: calc((100% - 6rem)/2); }
+  .row .col-1-of-3 {
+    width: calc((100% - 2 * 6rem)/3); }
+  .row .col-1-of-4 {
+    width: calc((100% - 3 * 6rem)/4); }
+  .row .col-2-of-3 {
+    width: calc(2 * ((100% - 2 * 6rem)/3) + 6rem); }
+  .row .col-2-of-4 {
+    width: calc(2 * ((100% - 3 * 6rem)/4) + 6rem); }
+  .row .col-3-of-4 {
+    width: calc(3 * ((100% - 3 * 6rem)/4) + 6rem); }
+
+.header-primary {
+  height: 4.5rem;
+  background-color: #f83d3d !important;
+  box-shadow: 0 0 5px 0 #000;
+  position: relative !important; }
+  .header-primary__info {
+    position: absolute; }
+    .header-primary__info h3 {
+      display: inline-block;
+      float: left;
+      color: #fff !important;
+      text-decoration: none;
+      font-size: 1.75rem;
+      margin-top: 1.15rem;
+      padding: 0 1.45rem;
+      font-family: "Verdana";
+      font-style: normal !important;
+      font-weight: 400; }
+      .header-primary__info h3:not(:last-child) {
+        margin-bottom: 1.25rem; }
+      .header-primary__info h3 a:hover, .header-primary__info h3 a:link, .header-primary__info h3 a:active {
+        text-decoration: none;
+        color: #fff; }
+  .header-primary__social {
+    position: absolute; }
+
+/* CSS Document */
